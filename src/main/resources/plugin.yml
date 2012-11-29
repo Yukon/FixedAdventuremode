@@ -1,0 +1,4 @@
+author: YukonAppleGeek
+main: me.yukonapplegeek.fixedadventuremode.FixedAdventuremode
+name: ${project.name}
+version: ${project.version}
