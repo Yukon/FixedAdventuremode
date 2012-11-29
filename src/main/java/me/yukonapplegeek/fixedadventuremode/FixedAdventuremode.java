@@ -28,6 +28,8 @@ public class FixedAdventuremode extends JavaPlugin implements Listener {
                 event.setCancelled(true);
             } else if (event.getBlock().getType() == Material.THIN_GLASS) {
                 event.setCancelled(true);
+            } else if (event.getBlock().getType() == Material.SKULL) {
+                event.setCancelled(true);
             }
         }
     }
