@@ -30,9 +30,11 @@ public class FixedAdventuremode extends JavaPlugin implements Listener {
         blocks.put(Material.GLOWSTONE, true);
         blocks.put(Material.REDSTONE_LAMP_ON, true);
         blocks.put(Material.REDSTONE_LAMP_OFF, true);
-        blocks.put(Material.REDSTONE, true);
+        blocks.put(Material.REDSTONE_WIRE, true);
         blocks.put(Material.REDSTONE_TORCH_OFF, true);
         blocks.put(Material.REDSTONE_TORCH_ON, true);
+        blocks.put(Material.STONE_BUTTON, true);
+        blocks.put(Material.WOOD_BUTTON, true);
     }
 
     @EventHandler
